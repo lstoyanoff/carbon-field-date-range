@@ -1,0 +1,25 @@
+{
+    "name": "lstoyanoff/carbon-field-date-range",
+    "description": "Carbon Fields extension, that adds a Date Range field type.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-date-range"],
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Lachezar Stoyanov",
+            "email": "luchezarr.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^3.0"
+    },
+    "autoload": {
+        "files": [
+            "core/bootstrap.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_Date_Range\\": "core/"
+        }
+    }
+}
